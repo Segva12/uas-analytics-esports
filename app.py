@@ -50,7 +50,7 @@ menu = st.sidebar.radio(
 )
 
 st.sidebar.markdown("---")
-st.sidebar.info("🚀 **Project UAS - Analisis Sentimen Komunitas E-Sports**)
+st.sidebar.info("🚀 **Project UAS - Analisis Sentimen Komunitas E-Sports**")
 
 # =================================================================
 # HALAMAN 1: OVERVIEW & DISTRIBUSI DATA
