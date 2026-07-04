@@ -50,7 +50,7 @@ menu = st.sidebar.radio(
 )
 
 st.sidebar.markdown("---")
-st.sidebar.info("🚀 **Project UAS - Analisis Sentimen Komunitas E-Sports**\n\nDeveloped by: Farhan Adriansyah Syafrily")
+st.sidebar.info("🚀 **Project UAS - Analisis Sentimen Komunitas E-Sports**)
 
 # =================================================================
 # HALAMAN 1: OVERVIEW & DISTRIBUSI DATA
@@ -133,7 +133,7 @@ elif menu == "🤖 Komparasi Model & Pengujian Live":
     st.markdown("### 🧪 Simulator Deteksi Toksisitas Real-Time")
     st.write("Ketik komentar e-sports apa saja di bawah ini. Model AI terbaik (**SVM**) akan langsung memprediksi kategori teks secara otomatis:")
     
-    input_teks = st.text_input("Input Kalimat Pengujian:", placeholder="Ketik di sini... (Contoh: btr juara onic ampas atau congrats ya onic)")
+    input_teks = st.text_input("Input Kalimat Pengujian:", placeholder="Ketik di sini... (Contoh: tim rrq cacat ganiat main atau GG onic)")
     
     if input_teks:
         teks_transformed = vectorizer.transform([input_teks])
